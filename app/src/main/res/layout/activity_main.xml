@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_700">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ikanasin" />
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/judul"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:textSize="30sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/profile" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/profile"
+                    android:text="@string/name"
+                    android:textColor="@color/black"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/deskripsi"
+                android:textSize="12dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:visibility="visible"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="15dp"
+                android:background="@color/grey"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bahan"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bahan1"
+                android:textSize="12sp"
+                android:lineSpacingExtra="12dp"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:textColor="@color/black"
+                android:layout_marginTop="8dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bahan2"
+                android:textSize="12sp"
+                android:lineSpacingExtra="12dp"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:textColor="@color/black"
+                android:layout_marginTop="8dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bahan3"
+                android:textSize="12sp"
+                android:lineSpacingExtra="12dp"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:textColor="@color/black"
+                android:layout_marginTop="8dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:visibility="visible"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="15dp"
+                android:background="@color/grey"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/langkah"
+                android:textSize="16dp"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"/>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:adjustViewBounds="true"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:src="@drawable/ikansegar"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="@dimen/activity_horizontal_margin"
+                    android:text="@string/langkah1"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"/>
+            </FrameLayout>
+
+            <View
+                android:layout_width="320dp"
+                android:layout_height="1dp"
+                android:visibility="visible"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:background="@color/grey"/>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:adjustViewBounds="true"
+                    android:layout_marginLeft="40dp"
+                    android:src="@drawable/cuciikan"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="@dimen/activity_horizontal_margin"
+                    android:text="@string/langkah2"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    />
+            </FrameLayout>
+
+            <View
+                android:layout_width="320dp"
+                android:layout_height="1dp"
+                android:visibility="visible"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="10dp"
+                android:background="@color/grey"/>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:adjustViewBounds="true"
+                    android:layout_marginLeft="40dp"
+                    android:src="@drawable/ikandigarami"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="@dimen/activity_horizontal_margin"
+                    android:text="@string/langkah3"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    />
+            </FrameLayout>
+
+            <View
+                android:layout_width="320dp"
+                android:layout_height="1dp"
+                android:visibility="visible"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="10dp"
+                android:background="@color/grey"/>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="40dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ikandijemur" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="@dimen/activity_horizontal_margin"
+                    android:text="@string/langkah4"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    />
+            </FrameLayout>
+
+            <View
+                android:layout_width="320dp"
+                android:layout_height="1dp"
+                android:visibility="visible"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:background="@color/grey"/>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:adjustViewBounds="true"
+                    android:layout_marginLeft="40dp"
+                    android:src="@drawable/sajianikan"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="@dimen/activity_horizontal_margin"
+                    android:text="@string/langkah5"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    />
+            </FrameLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:visibility="visible"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="15dp"
+                android:background="@color/grey"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/penyajian"
+                android:textSize="15dp"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/penyajian1"
+                android:textSize="12sp"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:textColor="@color/black"
+                android:layout_marginTop="8dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/penyajian2"
+                android:textSize="12sp"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:textColor="@color/black"
+                android:layout_marginTop="8dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/penyajian3"
+                android:textSize="12sp"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:textColor="@color/black"
+                android:layout_marginTop="8dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/penyajian4"
+                android:textSize="12sp"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:textColor="@color/black"
+                android:layout_marginTop="8dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/penyajian5"
+                android:textSize="12sp"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:textColor="@color/black"
+                android:layout_marginTop="8dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

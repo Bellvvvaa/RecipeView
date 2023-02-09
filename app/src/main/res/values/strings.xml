@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Recipe View</string>
+    <string name="judul">IKAN ASIN</string>
+    <string name="name">Belva Setyo Amanullah</string>
+    <string name="deskripsi">Ikan asin merupakan salah satu makanan tradisional yang banyak ditemukan didaerah pantai, hampir disetiap pantai pasti ada yang menjual ikan asin. Kita tidak perlu pergi ke pantai untuk menikmati ikan asin, disini saya memiliki cara untuk membuat ikan asin</string>
+
+    <string name="bahan">Bahan-Bahan</string>
+    <string name="bahan1">1 kg Ikan Segar</string>
+    <string name="bahan2">1/2 kg garam</string>
+    <string name="bahan3">1-2 liter air</string>
+
+    <string name="langkah">Langkah-langkah</string>
+    <string name="langkah1">Siapkan ikan segar</string>
+    <string name="langkah2">Bersihkan ikan dari kotoran</string>
+    <string name="langkah3">ikan ditaburi atau direndam dalam larutan garam pekat, ikan yang ukuran besar dibelah atau dipotong potong terlebih dahulu</string>
+    <string name="langkah4">Diamkan selama 10 - 24 jam kemudian jemur ikan dibawah sinar matahari selama 1 - 3 hari</string>
+    <string name="langkah5">Sajikan ikan dengan sambal dan lalapan</string>
+
+    <string name="penyajian">Penyajian</string>
+    <string name="penyajian1">1. Ambilah ikan asin yang sudah benar benar kering</string>
+    <string name="penyajian2">2. Panaskan minyak goreng, lalu masukkan ikan ke minyak panas</string>
+    <string name="penyajian3">3. Goreng ikan hingga berwarna putih kecoklatan</string>
+    <string name="penyajian4">4. Angkat dan tunggu hingga minyak tuntas</string>
+    <string name="penyajian5">5. Sajikan ikan asin dengan sambal dan lalapan</string>
+
+
+</resources>
